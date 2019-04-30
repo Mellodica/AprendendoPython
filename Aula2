@@ -1,0 +1,7 @@
+a = int(input("Digite O Valor de A: "))
+b = int(input("Digite O Valor de B: "))
+
+s = a + b
+
+if s > 5:
+    print("O valor de {} eh somando os valores {} + {}".format(s, a, b))
