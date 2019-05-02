@@ -6,8 +6,8 @@
 """
 from math import pow, sqrt
 
-catOposto = int(input("Digite o Valor do Cateto Oposto: "))
-catAdjacente = int(input("Digite o Valor do Cateto Adjacente: "))
+catOposto = float(input("Digite o Valor do Cateto Oposto: "))
+catAdjacente = float(input("Digite o Valor do Cateto Adjacente: "))
 
 rHipotenusa = (pow(catOposto,2) + pow(catAdjacente,2))
 hipotenusa = sqrt(rHipotenusa)
