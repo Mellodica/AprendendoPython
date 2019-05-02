@@ -2,6 +2,8 @@
 Crie um programa que leia o nome de uma Cidade e diga se ela começa ou nao com Santo.
 """
 
-cidade = str(input("Digite o Nome da Sua Cidade"))
+cidade = str(input("Digite o Nome da Sua Cidade: ")).strip()
 
-print("Santo" in cidade)
+print("SANTO" in cidade.upper())
+
+
