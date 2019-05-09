@@ -1,8 +1,7 @@
 
 
 nome = input("Digite seu nome: ").strip().upper()
-idade = input("Digite sua idade: ").strip()
+idade = input("Digite sua idade: ")
 print(" ")
 
-print("Bem vindo {}, você tem {} anos.".format(nome.title()), idade)
-
+print("Bem vindo {}, você tem {} anos.".format(nome.title(), idade))
