@@ -51,7 +51,7 @@ soma = r3 + r1 + r2
 
 
 
-print("Cada Pergunta tem o Valor de 2 Pontos sua pontuação foi {}".format( soma))
+print("\n\n\n Cada Pergunta tem o Valor de 2 Pontos sua pontuação foi {}".format( soma))
 
 
 
